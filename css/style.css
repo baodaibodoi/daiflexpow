@@ -1,0 +1,140 @@
+body{
+  font-family: Lato;
+  background: #4B0082;
+  height: 800px;
+}
+
+.container{
+  width: 100%;
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0 5vh;
+}
+
+#accordion-1{
+  position: relative;
+  box-shadow: 0px 1px 7px #DBDBDB;
+}
+
+#accordion-1 .head{
+  background-color: #FFFFFF;
+  color: #563e6e;
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#accordion-1 .arrow{
+  color: #563e6e;
+  font-size: 60px;
+  transition: 0.25s ease;
+  opacity: 0.3;
+  transform: rotate(-90deg);
+}
+
+#accordion-1 .head:hover .arrow{
+  opacity: 1;
+}
+
+#accordion-1 .head:hover, #accordion-1 .active{
+  background-color: #FFE4E1;
+}
+
+#accordion-1 .arrow-animate{
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+#accordion-1 .content{
+  background-color: #FFFFFF;
+  display: none;
+  padding: 20px 30px;
+  color: #333333;
+}
+
+#accordion-2{
+  position: relative;
+  box-shadow: 0px 1px 7px #DBDBDB;
+}
+
+#accordion-2 .head{
+  background-color: #FFFFFF;
+  color: #563e6e;
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#accordion-2 .arrow{
+  color: #563e6e;
+  font-size: 60px;
+  transition: 0.25s ease;
+  opacity: 0.3;
+  transform: rotate(-90deg);
+}
+
+#accordion-2 .head:hover .arrow{
+  opacity: 1;
+}
+
+#accordion-2 .head:hover, #accordion-2 .active{
+  background-color: #FFE4E1;
+}
+
+#accordion-2 .arrow-animate{
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+#accordion-2 .content{
+  background-color: #FFFFFF;
+  display: none;
+  padding: 20px 30px;
+  color: #333333;
+}
+
+#accordion-3 .head{
+  background-color: #FFFFFF;
+  color: #563e6e;
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#accordion-3 .arrow{
+  color: #563e6e;
+  font-size: 60px;
+  transition: 0.25s ease;
+  opacity: 0.3;
+  transform: rotate(-90deg);
+}
+
+#accordion-3 .head:hover .arrow{
+  opacity: 1;
+}
+
+#accordion-3 .head:hover, #accordion-3 .active{
+  background-color: #FFE4E1;
+}
+
+#accordion-3 .arrow-animate{
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+#accordion-3 .content{
+  background-color: #FFFFFF;
+  display: none;
+  padding: 20px 30px;
+  color: #333333;
+}
